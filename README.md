@@ -2,6 +2,12 @@
 
 # 女娲.skill
 
+<p align="center">
+  <img src="assets/hero.gif" alt="nuwa-skill Hero Animation" />
+  <br/>
+  <sub>动画由 <a href="https://github.com/alchaincyf/huashu-design">huashu-design</a> skill 制作</sub>
+</p>
+
 > *「你想蒸馏的下一个员工，何必是同事」*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -18,13 +24,17 @@
 那何必蒸馏同事？去蒸馏乔布斯、芒格、费曼、马斯克。<br>
 只需输入一个名字，女娲自动完成调研、提炼、验证全流程。
 
-[看效果](#效果示例) · [安装](#安装) · [它蒸馏了什么](#女娲蒸馏了什么) · [工作原理](#工作原理)
+[看效果](#效果示例) · [安装](#安装) · [它蒸馏了什么](#女娲蒸馏了什么) · [工作原理](#工作原理) · [不想自己蒸馏？试试 Bloome](#不想自己蒸馏试试-bloome)
 
 <br>
 
 **其他语言 / Other Languages:**
 
 [English](README_EN.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md)
+
+<br>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=alchaincyf/nuwa-skill&type=Date)](https://star-history.com/#alchaincyf/nuwa-skill&Date)
 
 </div>
 
@@ -97,6 +107,16 @@ Naval     ❯ 你列了三个欲望。每个欲望都是你跟不快乐签的一
 
 ---
 
+## 不想自己蒸馏？试试 Bloome
+
+[<img src="bloome-advisors.jpg" alt="Bloome - 让他们成为你的智囊团" width="720">](https://www.bloome.im)
+
+想随时找乔布斯和张小龙聊产品？和芒格聊投资？
+
+[Bloome](https://www.bloome.im) —— 让他们成为你的智囊团，人和多个 Agent 在同一个对话里协作。www.bloome.im
+
+---
+
 ## 安装
 
 ```bash
@@ -123,7 +143,7 @@ npx skills add alchaincyf/nuwa-skill
 
 ## 女娲蒸馏了什么
 
-蒸馏各领域最强的人，需要提取比日常工作习惯更深的东西。女娲提取六层：
+蒸馏各领域最强的人，需要提取比日常工作习惯更深的东西。女娲提取五层：
 
 | 层次 | 说明 |
 |---|---|
@@ -149,12 +169,18 @@ npx skills add alchaincyf/nuwa-skill
 
 ## 已蒸馏人物
 
-女娲已蒸馏了7位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill：
+女娲已蒸馏了13位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill：
 
 ### 人物Skill
 
 | 人物 | 领域 | 独立仓库 | 一键安装 |
 |------|------|---------|---------|
+| 🔥 **Paul Graham** | 创业/写作/产品/人生哲学 | [paul-graham-skill](https://github.com/alchaincyf/paul-graham-skill) | `npx skills add alchaincyf/paul-graham-skill` |
+| 🔥 **张一鸣** | 产品/组织/全球化/人才 | [zhang-yiming-skill](https://github.com/alchaincyf/zhang-yiming-skill) | `npx skills add alchaincyf/zhang-yiming-skill` |
+| 🔥 **Karpathy** | AI/工程/教育/开源 | [karpathy-skill](https://github.com/alchaincyf/karpathy-skill) | `npx skills add alchaincyf/karpathy-skill` |
+| 🔥 **Ilya Sutskever** | AI安全/scaling/研究品味 | [ilya-sutskever-skill](https://github.com/alchaincyf/ilya-sutskever-skill) | `npx skills add alchaincyf/ilya-sutskever-skill` |
+| 🔥 **MrBeast** | 内容创造/YouTube方法论 | [mrbeast-skill](https://github.com/alchaincyf/mrbeast-skill) | `npx skills add alchaincyf/mrbeast-skill` |
+| 🔥 **特朗普** | 谈判/权力/传播/行为预判 | [trump-skill](https://github.com/alchaincyf/trump-skill) | `npx skills add alchaincyf/trump-skill` |
 | ⭐ **乔布斯** | 产品/设计/战略 | [steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | `npx skills add alchaincyf/steve-jobs-skill` |
 | **马斯克** | 工程/成本/第一性原理 | [elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) | `npx skills add alchaincyf/elon-musk-skill` |
 | **芒格** | 投资/多元思维/逆向思考 | [munger-skill](https://github.com/alchaincyf/munger-skill) | `npx skills add alchaincyf/munger-skill` |
@@ -163,15 +189,35 @@ npx skills add alchaincyf/nuwa-skill
 | **塔勒布** | 风险/反脆弱/不确定性 | [taleb-skill](https://github.com/alchaincyf/taleb-skill) | `npx skills add alchaincyf/taleb-skill` |
 | **张雪峰** | 教育/职业规划/阶层流动 | [zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
-### 主题Skill（新！）
+### 主题Skill
 
 | 主题 | 领域 | 独立仓库 | 一键安装 |
 |------|------|---------|---------|
-| 🆕 **X导师** | X/Twitter运营全栈 | [x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill) | `npx skills add alchaincyf/x-mentor-skill` |
+| **X导师** | X/Twitter运营全栈 | [x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill) | `npx skills add alchaincyf/x-mentor-skill` |
 
-人物Skill蒸馏一个人的思维方式；主题Skill蒸馏一个领域的方法论。X导师是女娲的第一个「非人类」作品，基于6位顶级X创作者 + 开源算法数据。
+人物Skill蒸馏一个人的思维方式；主题Skill蒸馏一个领域的方法论。每个仓库都包含完整的调研数据和效果示例对话。
 
-每个仓库都包含完整的调研数据和效果示例对话。想蒸馏不在列表里的人或主题？安装女娲，说「蒸馏一个XXX」就行。
+想蒸馏不在列表里的人或主题？安装女娲，说「蒸馏一个XXX」就行。
+
+---
+
+## 达尔文.skill：让所有Skill持续进化
+
+<div align="center">
+
+<a href="https://github.com/alchaincyf/darwin-skill">
+<img src="https://raw.githubusercontent.com/alchaincyf/darwin-skill/master/assets/banner.svg" alt="达尔文.skill" width="600">
+</a>
+
+</div>
+
+女娲造Skill，**[达尔文](https://github.com/alchaincyf/darwin-skill)** 让Skill进化。
+
+受 Karpathy autoresearch 启发，达尔文.skill 用自主实验循环批量优化所有Skill：8维度评估、棘轮机制（只保留改进，自动回滚退步）、独立子agent评分。女娲的 Phase 5 双Agent精炼就内置了达尔文的评估体系，这也是女娲生成的Skill质量高的原因之一。
+
+```bash
+npx skills add alchaincyf/darwin-skill
+```
 
 ---
 
@@ -199,17 +245,24 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md   # 提炼方法论（想深入了解看这个）
 │   └── skill-template.md         # 生成Skill的模板
-└── examples/                     # 7个完整示例 + 调研数据
-    ├── steve-jobs-perspective/    # ⭐ 乔布斯（含实战对话记录）
-    ├── elon-musk-perspective/     # 马斯克
-    ├── naval-perspective/         # Naval Ravikant
-    ├── munger-perspective/        # 查理·芒格
-    ├── feynman-perspective/       # 费曼
-    ├── taleb-perspective/         # 塔勒布
-    └── zhangxuefeng-perspective/  # 张雪峰（中文人物示例）
+└── examples/                          # 13个人物 + 1个主题，含完整调研数据
+    ├── steve-jobs-perspective/        # ⭐ 乔布斯（含实战对话记录）
+    ├── paul-graham-perspective/       # Paul Graham
+    ├── zhang-yiming-perspective/      # 张一鸣
+    ├── andrej-karpathy-perspective/   # Karpathy
+    ├── ilya-sutskever-perspective/    # Ilya Sutskever
+    ├── trump-perspective/             # 特朗普
+    ├── mrbeast-perspective/           # MrBeast
+    ├── elon-musk-perspective/         # 马斯克
+    ├── munger-perspective/            # 查理·芒格
+    ├── feynman-perspective/           # 费曼
+    ├── naval-perspective/             # Naval Ravikant
+    ├── taleb-perspective/             # 塔勒布
+    ├── zhangxuefeng-perspective/      # 张雪峰
+    └── x-mastery-mentor/             # X导师（主题Skill）
 ```
 
-调研过程全透明。7个examples都包含完整的调研文件，你可以看到信息怎么被收集、筛选、变成心智模型。乔布斯的示例还附带了一段完整的实战对话记录（聊AI硬件、OpenAI vs Anthropic、Apple破局），展示Skill在多轮深度对话中的表现。
+调研过程全透明。每个example都包含完整的调研文件，你可以看到信息怎么被收集、筛选、变成心智模型。乔布斯的示例还附带了一段完整的实战对话记录（聊AI硬件、OpenAI vs Anthropic、Apple破局），展示Skill在多轮深度对话中的表现。
 
 ---
 
@@ -227,24 +280,20 @@ nuwa-skill/
 
 ---
 
-## Star History
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=alchaincyf/nuwa-skill&type=Date)](https://star-history.com/#alchaincyf/nuwa-skill&Date)
-
-</div>
-
----
-
 ## 关于作者
 
-花叔/花生，AI Native Coder，独立开发者。所有产品都是AI写的代码（[小猫补光灯](https://apps.apple.com/app/id6738028637)登顶中国App Store付费榜第一）。Claude Code里跑着40+个自定义Skill，女娲是造Skill的Skill。
+**花叔 Huashu** — AI Native Coder，独立开发者，代表作：小猫补光灯（AppStore 付费榜 Top1）
 
-- 公众号：花叔
-- X：[@AlchainHust](https://x.com/AlchainHust)
-- B站：[AI进化论-花生](https://space.bilibili.com/14097567)
-- YouTube：[@Alchain](https://www.youtube.com/@Alchain)
+| 平台 | 链接 |
+|------|------|
+| 🌐 官网 | [bookai.top](https://bookai.top) · [huasheng.ai](https://www.huasheng.ai) |
+| 𝕏 Twitter | [@AlchainHust](https://x.com/AlchainHust) |
+| 📺 B站 | [花叔](https://space.bilibili.com/14097567) |
+| ▶️ YouTube | [@Alchain](https://www.youtube.com/@Alchain) |
+| 📕 小红书 | [花叔](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
+| 💬 公众号 | 微信搜「花叔」或扫码关注 ↓ |
+
+<img src="wechat-qrcode.jpg" alt="公众号二维码" width="360">
 
 ## 许可证
 
@@ -280,6 +329,6 @@ Not role-playing. Cognitive architecture extraction.
 
 **How it works**: Input a name → 6 parallel research agents → 40+ primary sources → triple-verified mental models → quality-validated SKILL.md
 
-**7 examples included**: Steve Jobs, Elon Musk, Naval Ravikant, Charlie Munger, Feynman, Taleb, and Zhang Xuefeng — all with full research data. The Jobs example includes a complete multi-turn conversation demo.
+**13 person skills + 1 topic skill included** — all with full research data. The Jobs example includes a complete multi-turn conversation demo.
 
 See the Chinese README above for live examples and methodology.
