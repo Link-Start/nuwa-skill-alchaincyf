@@ -220,7 +220,20 @@ git clone https://github.com/alchaincyf/nuwa-skill <上面对应的路径>
 
 人物Skill蒸馏一个人的思维方式；主题Skill蒸馏一个领域的方法论。每个仓库都包含完整的调研数据和效果示例对话。
 
+🧪 **保真度评分卡**已上线：每个人物Skill出厂前由独立双agent盲测（立场一致性/风格辨识度/边缘诚实度/来源透明度/结构完整度），方法论见 [references/fidelity-scorecard.md](references/fidelity-scorecard.md)。首批：[芒格 96/100·A](examples/munger-perspective/FIDELITY.md)、[MrBeast 97/100·A](examples/mrbeast-perspective/FIDELITY.md)，逐步覆盖全部人物。
+
 想蒸馏不在列表里的人或主题？安装女娲，说「蒸馏一个XXX」就行。
+
+---
+
+## 贡献与社区
+
+女娲的生态由社区一起长大，但走两条不同的路：
+
+- **`SKILL.md` 是核心资产，不接受外部PR改动**。发现方法论的bug或改进点→开issue讨论，被采纳的想法由维护者实现并在commit中致谢（先例见PR #59）
+- **社区蒸馏的人物skill走 [COMMUNITY.md](COMMUNITY.md) 索引**：放你自己的仓库（star归你），跑一遍[保真度评分卡](references/fidelity-scorecard.md)拿到B级以上，提一行PR即可收录
+
+完整规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。社区已有的合集、多人格编排和主题应用，见 [COMMUNITY.md](COMMUNITY.md)。
 
 ---
 
